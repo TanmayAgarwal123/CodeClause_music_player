@@ -13,7 +13,6 @@ pattern = "*.mp3"
 
 mixer.init()
 
-
 prev_img = tk.PhotoImage(file="C:/Users/tanma/OneDrive/Documents/VS Code/CodeClause/music player/prev_img.png")
 stop_img = tk.PhotoImage(file="C:/Users/tanma/OneDrive/Documents/VS Code/CodeClause/music player/stop_img.png")
 play_img = tk.PhotoImage(file="C:/Users/tanma/OneDrive/Documents/VS Code/CodeClause/music player/play_img.png")
@@ -89,6 +88,5 @@ nextButton.pack(pady=15, in_=top, side="left")
 for root, dirs, files in os.walk(rootpath):
     for filename in fnmatch.filter(files, pattern):
         listBox.insert('end', filename)
-
 
 canvas.mainloop()
