@@ -1,4 +1,4 @@
 # CodeClause_music_player
 My second project in codeclause internship
 
-https://clipchamp.com/watch/JcaXUx6Pw5X
+https://www.youtube.com/watch?v=tTJEB--UUd4
